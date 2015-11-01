@@ -49,3 +49,4 @@ C:\Users\malick\Documents\GitHub\-BoredGames\BoredGames\BoredGames\obj\Debug\Bor
 C:\Users\malick\Documents\GitHub\-BoredGames\BoredGames\BoredGames\obj\Debug\BoredGames.frmSudoku.resources
 C:\Users\malick\Documents\GitHub\-BoredGames\BoredGames\BoredGames\obj\Debug\BoredGames.Properties.Resources.resources
 C:\Users\malick\Documents\GitHub\-BoredGames\BoredGames\BoredGames\obj\Debug\BoredGames.csproj.GenerateResource.Cache
+C:\Users\malick\Documents\GitHub\-BoredGames\BoredGames\BoredGames\obj\Debug\BoredGames.frmCheckers.resources

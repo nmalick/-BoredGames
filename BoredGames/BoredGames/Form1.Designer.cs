@@ -60,6 +60,7 @@
             this.btnCheckers.Size = new System.Drawing.Size(303, 94);
             this.btnCheckers.TabIndex = 5;
             this.btnCheckers.UseVisualStyleBackColor = true;
+            this.btnCheckers.Click += new System.EventHandler(this.btnCheckers_Click);
             // 
             // btnChess
             // 
@@ -69,6 +70,7 @@
             this.btnChess.Size = new System.Drawing.Size(303, 94);
             this.btnChess.TabIndex = 6;
             this.btnChess.UseVisualStyleBackColor = true;
+            this.btnChess.Click += new System.EventHandler(this.btnChess_Click);
             // 
             // menuStrip1
             // 

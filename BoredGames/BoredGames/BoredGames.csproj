@@ -50,6 +50,12 @@
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
+    <Compile Include="frmCheckers.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmCheckers.Designer.cs">
+      <DependentUpon>frmCheckers.cs</DependentUpon>
+    </Compile>
     <Compile Include="frmSudoku.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -61,6 +67,9 @@
     <Compile Include="SudokuPuzzleMaker.cs" />
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmCheckers.resx">
+      <DependentUpon>frmCheckers.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frmSudoku.resx">
       <DependentUpon>frmSudoku.cs</DependentUpon>

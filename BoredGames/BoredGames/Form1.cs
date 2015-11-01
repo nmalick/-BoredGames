@@ -29,7 +29,6 @@ namespace BoredGames
             frmSudoku sudoku = new frmSudoku();
             sudoku.Show();
             this.Hide();
-            
         }
 
         private void button1_Click_1(object sender, EventArgs e)
@@ -52,6 +51,18 @@ namespace BoredGames
         {
             if (MessageBox.Show("Do you want to exit?", "Exit", MessageBoxButtons.YesNo) == DialogResult.Yes)
                 Application.Exit();
+        }
+
+        private void btnChess_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnCheckers_Click(object sender, EventArgs e)
+        {
+            frmCheckers checkers = new frmCheckers();
+            checkers.Show();
+            this.Hide();
         }
     }
 }
