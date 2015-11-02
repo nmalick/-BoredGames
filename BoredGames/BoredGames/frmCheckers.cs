@@ -37,6 +37,7 @@ namespace BoredGames
             if (check == false)
             {
                 check = true;
+                btnCheckers2_4.BackColor = System.Drawing.Color.Gray;
                 firstBtn = btnCheckers2_4;
                 temp1 = btnCheckers2_4.Location;
                 return;
@@ -44,9 +45,11 @@ namespace BoredGames
                 
             if (check == true)
             {
+                btnCheckers2_4.BackColor = System.Drawing.Color.DarkRed;
                 temp2 = btnCheckers2_4.Location;
                 btnCheckers2_4.Location = temp1;
                 firstBtn.Location = temp2;
+                firstBtn.BackColor = System.Drawing.Color.DarkRed;
                 check = false;
             }
         }
@@ -56,6 +59,7 @@ namespace BoredGames
             if (check == false)
             {
                 check = true;
+                btnCheckers2_2.BackColor = System.Drawing.Color.Gray;
                 temp1 = btnCheckers2_2.Location;
                 firstBtn = btnCheckers2_2;
                 return;
@@ -63,9 +67,11 @@ namespace BoredGames
 
             if (check == true)
             {
+                btnCheckers2_2.BackColor = System.Drawing.Color.DarkRed; 
                 temp2 = btnCheckers2_2.Location;
                 btnCheckers2_2.Location = temp1;
                 firstBtn.Location = temp2;
+                firstBtn.BackColor = System.Drawing.Color.DarkRed;
                 check = false;
 
             }
@@ -76,6 +82,7 @@ namespace BoredGames
             if (check == false)
             {
                 check = true;
+                btnCheckers4_2.BackColor = System.Drawing.Color.Gray;
                 temp1 = btnCheckers4_2.Location;
                 firstBtn = btnCheckers4_2;
                 return;
@@ -83,9 +90,11 @@ namespace BoredGames
 
             if (check == true)
             {
+                btnCheckers4_2.BackColor = System.Drawing.Color.DarkRed; 
                 temp2 = btnCheckers4_2.Location;
                 btnCheckers4_2.Location = temp1;
                 firstBtn.Location = temp2;
+                firstBtn.BackColor = System.Drawing.Color.DarkRed;
                 check = false;
 
             }
@@ -96,6 +105,7 @@ namespace BoredGames
             if (check == false)
             {
                 check = true;
+                btnCheckers4_4.BackColor = System.Drawing.Color.Gray;
                 temp1 = btnCheckers4_4.Location;
                 firstBtn = btnCheckers4_4;
                 return;
@@ -103,9 +113,11 @@ namespace BoredGames
 
             if (check == true)
             {
+                btnCheckers4_4.BackColor = System.Drawing.Color.DarkRed;
                 temp2 = btnCheckers4_4.Location;
                 btnCheckers4_4.Location = temp1;
                 firstBtn.Location = temp2;
+                firstBtn.BackColor = System.Drawing.Color.DarkRed;
                 check = false;
 
             }
